@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Security Investigation Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #101827;
+      color: white;
+      font-family: Arial;
+      text-align: center;
+      padding: 50px 15px;
+    }
+    .box {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 400px;
+      margin: auto;
+    }
+    button {
+      background: #16a34a;
+      color: white;
+      padding: 12px 20px;
+      border: 0;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Security Investigation Portal</h2>
+    <p>This page is for voluntary security reports.</p>
+    <button onclick="document.getElementById('report').hidden=false">
+      Submit a report
+    </button>
+    <div id="report" hidden>
+      <p>Describe your security concern:</p>
+      <textarea id="message"></textarea>
+      <p>Your report is not transmitted automatically.</p>
+    </div>
+  </div>
+</body>
+</html>
