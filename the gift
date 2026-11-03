@@ -1,0 +1,18 @@
+Act as a professional Python cybersecurity developer.
+
+Create an ethical investigation-link logging system using Flask.
+
+Features:
+- Generate unique tracking URLs for authorized investigations.
+- Record link clicks and timestamps.
+- Record basic HTTP request metadata.
+- Provide an investigation dashboard.
+- Store logs securely in SQLite.
+- Export investigation records to CSV.
+- Include authentication for the investigator dashboard.
+- Include privacy safeguards and data retention controls.
+- Do not collect passwords, private messages, contacts, photos, microphone, camera, or files.
+- Do not exploit the visitor's device or browser.
+- Make the application deployable and document its setup.
+
+Use Python, Flask, HTML, CSS, and SQLite.
